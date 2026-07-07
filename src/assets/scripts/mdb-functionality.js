@@ -1,0 +1,210 @@
+/* ============================
+       SEARCH ENGINES
+    ============================ */
+
+// Bootstrap button class mapping for each source
+const sourceButtonClasses = {
+  "Cloud-Admin": "btn-success",
+  Tools: "btn-warning",
+  Documents: "btn-primary",
+  External: "btn-secondary",
+};
+const searchEngs = [
+  {
+    _id: "65fb865a908e79d79d273095",
+    url: "https://cloud.mongodb.com/v2/admin#general/federation?limit=25&search=<QUERY>&skip=0",
+    source: "Cloud-Admin",
+    label: "Federation",
+  },
+  {
+    _id: "65fb865a908e79d79d273097",
+    url: "https://cloud.mongodb.com/v2/admin#/controlPanel/emailsHistory?page=0&recipient=<QUERY>",
+    source: "Cloud-Admin",
+    label: "Email History",
+  },
+  {
+    _id: "65fb865a908e79d79d273096",
+    url: "https://cloud.mongodb.com/v2/admin#/atlas/search?search=<QUERY>&operator=AND",
+    area: "Atlas Search (Clusters, Projects, Plans, etc.)",
+    source: "Cloud-Admin",
+    label: "Clusters",
+  },
+  {
+    _id: "65fb865a908e79d79d273094",
+    url: "https://cloud.mongodb.com/v2/admin#general/userAccounts?filter=<QUERY>&filterType=EMAIL&includeDeleted=false&limit=25&showOnlyCloud=false&skip=0",
+    source: "Cloud-Admin",
+    label: "Users (email)",
+  },
+  {
+    _id: "66bcc78f1fe684e28abcf1a3",
+    url: "https://cloud.mongodb.com/v2/admin#/alerts/communication",
+    source: "Cloud-Admin",
+    label: "Alerts-Communication",
+  },
+  {
+    _id: "6793d97557481ee54d1e6295",
+    url: "https://cloud.mongodb.com/v2/admin#/cps/backupCompliancePolicy?groupId=<QUERY>",
+    source: "Cloud-Admin",
+    label: "Backup CP",
+  },
+  {
+    _id: "65fb865a908e79d79d273098",
+    url: "https://splunk.corp.mongodb.com/en-US/app/search/search?q=search%20<QUERY>",
+    source: "Tools",
+    label: "Splunk (Enterprise)",
+  },
+  {
+    _id: "65fb865a908e79d79d273090",
+    url: "https://www.mongodb.com/docs/search/?q=<QUERY>&searchProperty=atlas-main&page=1",
+    source: "External",
+    label: "MongoDB Docs (Atlas)",
+  },
+  {
+    _id: "6793d97557481ee54d1e6296",
+    url: "https://www.mongodb.com/search?addsearch=<QUERY>",
+    source: "External",
+    label: "MongoDB Search",
+  },
+  {
+    _id: "67a1e5c9e4b0d8c8b9f0a1d2",
+    url: "https://knowledge.corp.mongodb.com/search?q=<QUERY>",
+    source: "Documents",
+    label: "Knowledge Hub (Gen)",
+  },
+  {
+    _id: "67a1e5c9e4b0d8c8b9f0a1d3",
+    url: "https://knowledge.corp.mongodb.com/search?q=<QUERY>&f-documentsource=Knowledge%20Articles",
+    source: "Documents",
+    label: "KB-Articles",
+  },
+
+  {
+    _id: "67a1e5c9e4b0d8c8b9f0a1d4",
+    url: "https://knowledge.corp.mongodb.com/search?q=<QUERY>&f-documentsource=Support%20Cases",
+    source: "Documents",
+    label: "KB-Support Cases",
+  },
+
+  {
+    _id: "67a1e5c9e4b0d8c8b9f0a1d5",
+    url: "https://app.glean.com/search?q=<QUERY>+hidden&tab=all",
+    source: "Tools",
+    label: "Glean",
+  },
+  {
+    _id: "67a1e5c9e4b0d8c8b9f0a1d7",
+    url: "https://learn.mongodb.com/catalog?query=<QUERY>",
+    source: "External",
+    label: "MDB-University",
+  },
+  {
+    _id: "67a1e5c9aaa0d8c8b9f0a1d7",
+    url: "https://www.mongodb.com/community/forums/search?q=<QUERY>",
+    source: "External",
+    label: "MDB-CommunityHub",
+  },
+  {
+    _id: "67a1e5c9e4b0d8c8b9f0a1d6",
+    url: "https://support.mongodb.com/case/<QUERY>",
+    source: "Documents",
+    label: "Cases",
+  },
+  {
+    _id: "66087566016cf54d5a480ccb",
+    url: "https://www.google.ca/search?q=<QUERY>",
+    source: "External",
+    label: "Google",
+  },
+];
+
+// Function to dynamically create the search form
+function createSearchForm() {
+  const container = document.getElementById("searchForm");
+
+  // Group engines by source
+  const groupedEngines = searchEngs.reduce((acc, engine) => {
+    const source = engine.source || "Other";
+    if (!acc[source]) {
+      acc[source] = [];
+    }
+    acc[source].push(engine);
+    return acc;
+  }, {});
+
+  // Define the order of sources
+  const sourceOrder = [
+    "Cloud-Admin",
+    "Tools",
+    "Documents",
+    "External",
+    "Other",
+  ];
+
+  // Create HTML for each group
+  sourceOrder.forEach((source, index) => {
+    if (groupedEngines[source]) {
+      const groupDiv = document.createElement("div");
+      groupDiv.className = "mb-4";
+
+      const title = document.createElement("h6");
+      title.className = "mb-3";
+      title.textContent = source;
+      groupDiv.appendChild(title);
+
+      const buttonGroup = document.createElement("div");
+      buttonGroup.className = "d-flex flex-wrap gap-2";
+
+      const buttonClass = sourceButtonClasses[source] || "btn-dark";
+
+      groupedEngines[source].forEach((engine) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = `btn ${buttonClass} btn-sm`;
+        button.textContent = engine.label;
+        button.onclick = () => handleSearch(engine._id);
+        buttonGroup.appendChild(button);
+      });
+
+      groupDiv.appendChild(buttonGroup);
+      container.appendChild(groupDiv);
+
+      // Add horizontal rule separator after each group except the last one
+      if (
+        index < sourceOrder.length - 1 &&
+        groupedEngines[sourceOrder[index + 1]]
+      ) {
+        const hr = document.createElement("hr");
+        hr.className = "my-4";
+        container.appendChild(hr);
+      }
+    }
+  });
+}
+
+// Initialize table and filter listener
+document.addEventListener("DOMContentLoaded", () => {
+  // Initial population
+  //   populateTable(); //Default targets jargon (acronyms, jargonTbody)
+  createSearchForm();
+
+  //   populateTable("", snippets, "snippetsTbody");
+
+  //   populateTable("", lsMacros, "macroTbody");
+
+  // macroInput macroTbody
+  // Add filter listener
+  /* const jargonInput = document.getElementById("jargonInput");
+  jargonInput.addEventListener("input", (e) => {
+    populateTable(e.target.value);
+  });
+
+  const typinatorInput = document.getElementById("typinatorInput");
+  typinatorInput.addEventListener("input", (e) => {
+    populateTable(e.target.value, snippets, "snippetsTbody");
+  });
+
+  const macroInput = document.getElementById("macroInput");
+  macroInput.addEventListener("input", (e) => {
+    populateTable(e.target.value, lsMacros, "macroTbody");
+  }); //*/
+});

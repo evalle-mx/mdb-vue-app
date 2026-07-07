@@ -1,0 +1,21 @@
+{
+  "name": "mdb-vue-app",
+  "version": "1.0.0",
+  "description": "Basic Vue 3 static site (Bootstrap 5, Vue Router) deployable to AWS S3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.7",
+    "vite": "^8.1.3"
+  }
+}

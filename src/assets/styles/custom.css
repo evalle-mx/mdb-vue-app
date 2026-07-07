@@ -1,0 +1,41 @@
+/* Project-level tweaks layered on top of Bootstrap 5 defaults */
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.navbar-brand i {
+  color: #6ea8fe;
+}
+
+/* Gallery thumbnails */
+.gallery-thumb {
+  cursor: pointer;
+  transition: transform 0.15s ease;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+.gallery-thumb:hover {
+  transform: scale(1.03);
+}
+
+/* Slightly tighten accordion body padding inside tabs so 4 items fit nicely */
+.accordion-body {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.reply-body {
+  font-size: 0.85em;
+}
+
+.accordion-header .h2 {
+  font-weight: bold;
+  color: tomato;
+}

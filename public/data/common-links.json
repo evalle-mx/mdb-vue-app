@@ -1,0 +1,52 @@
+[
+  {
+    "id": "getting-started",
+    "title": "Getting Started",
+    "description": "Everything you need for your first steps.",
+    "links": [
+      { "label": "Installation guide", "url": "#" },
+      { "label": "Project structure", "url": "#" },
+      { "label": "Running locally", "url": "#" }
+    ]
+  },
+  {
+    "id": "deployment",
+    "title": "Deployment",
+    "description": "Shipping this site to AWS S3.",
+    "links": [
+      { "label": "Building for production", "url": "#" },
+      { "label": "Creating an S3 bucket", "url": "#" },
+      { "label": "Static website hosting settings", "url": "#" },
+      { "label": "CloudFront + custom domain (optional)", "url": "#" }
+    ]
+  },
+  {
+    "id": "components",
+    "title": "UI Components",
+    "description": "Reusable Bootstrap-based building blocks.",
+    "links": [
+      { "label": "Cards & collapsibles", "url": "#" },
+      { "label": "Tabs & accordions", "url": "#" },
+      { "label": "Modals", "url": "#" }
+    ]
+  },
+  {
+    "id": "data",
+    "title": "Working with Data",
+    "description": "Fetching local and remote JSON resources.",
+    "links": [
+      { "label": "Local /public JSON files", "url": "#" },
+      { "label": "Remote HTTP APIs", "url": "#" },
+      { "label": "Loading and error states", "url": "#" }
+    ]
+  },
+  {
+    "id": "support",
+    "title": "Support",
+    "description": "Where to go if something breaks.",
+    "links": [
+      { "label": "Troubleshooting", "url": "#" },
+      { "label": "Contact the team", "url": "#" }
+    ]
+  }
+]

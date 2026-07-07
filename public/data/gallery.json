@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Mountain Lake",
+    "thumb": "https://picsum.photos/id/1015/400/300",
+    "full": "https://picsum.photos/id/1015/1200/800",
+    "description": "A calm alpine lake surrounded by mountains."
+  },
+  {
+    "id": 2,
+    "title": "Forest Path",
+    "thumb": "https://picsum.photos/id/1016/400/300",
+    "full": "https://picsum.photos/id/1016/1200/800",
+    "description": "Sunlight filtering through a dense forest trail."
+  },
+  {
+    "id": 3,
+    "title": "Coastline",
+    "thumb": "https://picsum.photos/id/1018/400/300",
+    "full": "https://picsum.photos/id/1018/1200/800",
+    "description": "Rolling hills meeting the shoreline at dusk."
+  },
+  {
+    "id": 4,
+    "title": "City Bridge",
+    "thumb": "https://picsum.photos/id/1031/400/300",
+    "full": "https://picsum.photos/id/1031/1200/800",
+    "description": "A quiet bridge crossing over a wide river."
+  },
+  {
+    "id": 5,
+    "title": "Desert Dunes",
+    "thumb": "https://picsum.photos/id/1043/400/300",
+    "full": "https://picsum.photos/id/1043/1200/800",
+    "description": "Golden sand dunes under a clear sky."
+  },
+  {
+    "id": 6,
+    "title": "Old Architecture",
+    "thumb": "https://picsum.photos/id/1049/400/300",
+    "full": "https://picsum.photos/id/1049/1200/800",
+    "description": "Historic stone architecture in a European town."
+  },
+  {
+    "id": 7,
+    "title": "Countryside",
+    "thumb": "https://picsum.photos/id/1050/400/300",
+    "full": "https://picsum.photos/id/1050/1200/800",
+    "description": "Open fields under a dramatic sky."
+  },
+  {
+    "id": 8,
+    "title": "Harbor",
+    "thumb": "https://picsum.photos/id/1053/400/300",
+    "full": "https://picsum.photos/id/1053/1200/800",
+    "description": "Boats resting in a quiet harbor at sunrise."
+  }
+]

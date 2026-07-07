@@ -1,0 +1,1900 @@
+[
+  {
+    "number": 0,
+    "title": "Startup program inquires (+ email Michael Lynn)",
+    "tags": ["startup"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 51,
+    "title": "General Student Developer GitHub offer",
+    "tags": ["github"],
+    "text": "",
+    "description": "",
+    "template": "templates/macros/macro-51.html"
+  },
+  {
+    "number": 75,
+    "title": "Encryption in Atlas ",
+    "tags": ["encryption"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 87,
+    "title": "Billing Unit Price Explained",
+    "tags": ["billing"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 88,
+    "title": "Billing Change Payment Details",
+    "tags": ["billing"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 90,
+    "title": "Billing GoAtlas10 Coupon",
+    "tags": ["billing"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 91,
+    "title": "Billing Estimate Atlas Costs",
+    "tags": ["billing"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 94,
+    "title": "Billing Retry a Failed Payment",
+    "tags": ["billing"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 95,
+    "title": "Billing Account Suspended Inquiry",
+    "tags": ["suspended", "billing"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 96,
+    "title": "Account MFA Issues (google)",
+    "tags": ["MFA"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 97,
+    "title": "Account Deletion",
+    "tags": ["delete", "account"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 98,
+    "title": "Account Deletion (close)",
+    "tags": ["delete", "account"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 99,
+    "title": "Account Password Reset",
+    "tags": ["password"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 100,
+    "title": "Temp Response for login issues",
+    "tags": ["temp-login"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 101,
+    "title": "Deflection to Community Support",
+    "tags": ["deflect", "community"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 102,
+    "title": "Ticket (case) deflection",
+    "tags": ["deflect"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 106,
+    "title": "New Subscription Atlas Developer Support",
+    "tags": ["support"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 108,
+    "title": "University course discussion forum available",
+    "tags": ["community", "University"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 110,
+    "title": "Feature request on UserVoice portal",
+    "tags": ["feature"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 116,
+    "title": "Restoring from raw data (.wt) files",
+    "tags": ["restore"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 120,
+    "title": "Alert Max Connections",
+    "tags": ["connection", "alert"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 122,
+    "title": "Connect Authentication Error",
+    "tags": ["connection"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 124,
+    "title": "Connect via Compass",
+    "tags": ["connection", "compass"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 125,
+    "title": "Connect via mongooose ",
+    "tags": ["mongoose", "driver"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 126,
+    "title": "Connect via Driver",
+    "tags": ["connection", "driver"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 127,
+    "title": "Connect- Robo3t (formerly robomongo) - studio3t",
+    "tags": ["studio3t", "connection"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 131,
+    "title": "General Existing Connections",
+    "tags": ["connection"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 135,
+    "title": "Connect Port and Host Test",
+    "tags": ["connection", "test"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 136,
+    "title": "Connect IP Address?",
+    "tags": ["connection"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 140,
+    "title": "General Free Tier Change Region",
+    "tags": ["region"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 142,
+    "title": "Connect Command line tools",
+    "tags": ["connection", "tools"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 144,
+    "title": "Copy (clone) a collection within a cluster",
+    "tags": ["clone"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 145,
+    "title": "Copy (clone) a database within a cluster",
+    "tags": ["clone"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 146,
+    "title": "General Import Data",
+    "tags": ["import"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 149,
+    "title": "General Migrate to NoSQL",
+    "tags": ["no-sql"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 150,
+    "title": "General Free Tier Scale down",
+    "tags": ["scale"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 152,
+    "title": "Help TSE II support requested (FTS)",
+    "tags": ["fts", "help"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 155,
+    "title": "Help ticket created (FTS)",
+    "tags": ["fts", "help"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 156,
+    "title": "Help ticket resolved (FTS)",
+    "tags": ["fts", "help"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 157,
+    "title": "Help ticket update (FTS)",
+    "tags": ["fts", "help"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 158,
+    "title": "Account Username Change",
+    "tags": ["username"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 159,
+    "title": "Connect Heroku Information",
+    "tags": ["connection", "heroku"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 161,
+    "title": "General Compass Information",
+    "tags": ["compass"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 163,
+    "title": "General GridFS for Images",
+    "tags": ["gridFs"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 168,
+    "title": "General Reply Reopens",
+    "tags": ["reopened"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 170,
+    "title": "Alert Disk % Utilization",
+    "tags": ["disk", "alert"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 171,
+    "title": "Alert Query Targeting",
+    "tags": ["query", "alert"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 172,
+    "title": "Alert System CPU Usage",
+    "tags": ["cpu", "alert"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 175,
+    "title": "General Kill Slow Queries",
+    "tags": ["slow-queries"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 183,
+    "title": "General Compact Command",
+    "tags": ["compact"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 185,
+    "title": "General Existing Disk Space",
+    "tags": ["space"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 186,
+    "title": "General Minor Upgrade/Maintenance",
+    "tags": ["upgrade", "downtime"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 188,
+    "title": "General Disk Space Reused ",
+    "tags": ["space"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 192,
+    "title": "General Atlas Users/Database Users",
+    "tags": ["users", "connection"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 195,
+    "title": "General Security and HIPAA Information",
+    "tags": ["security", "hipaa"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 197,
+    "title": "General Staging/Production Environments",
+    "tags": ["environment"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 200,
+    "title": "General Atlas Use Cases",
+    "tags": ["use-case", "Atlas"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 201,
+    "title": "General Best Practices Guides",
+    "tags": ["guide"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 204,
+    "title": "General Create Cloud Manager Account",
+    "tags": ["cm", "account"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 206,
+    "title": "General Download Logs",
+    "tags": ["logs"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 207,
+    "title": "General Download MongoDB ",
+    "tags": ["on-premise"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 209,
+    "title": "General Free Tier Limitations",
+    "tags": ["free-tier"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 211,
+    "title": "General New Atlas User",
+    "tags": ["new-user"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 212,
+    "title": "Rename a Cluster",
+    "tags": ["rename"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 217,
+    "title": "Gather Browser Console Information ",
+    "tags": ["console", "log"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 221,
+    "title": "(APPX) Troubleshooting Atlas App Services 'service not found'",
+    "tags": ["Appx"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 223,
+    "title": "App Services - UI modification not reflected in the App Services Application",
+    "tags": ["Appx"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 228,
+    "title": "(APPX) App Services connection utilization in Atlas",
+    "tags": ["Appx"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 239,
+    "title": "Realm Unauthorized Error 403",
+    "tags": ["Appx"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 240,
+    "title": "pp Services Authentication via 'non-user' is unsupported",
+    "tags": ["Appx"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 241,
+    "title": "(APPX) Suspended Database Trigger",
+    "tags": ["Appx"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 242,
+    "title": "App Services - Unsupported Operators and Commands in App Services",
+    "tags": ["Appx"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 252,
+    "title": "Connect Pymongo Certificate Issue",
+    "tags": ["pymongo", "certificate", "connection"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 338,
+    "title": "General local vs remote server latency",
+    "tags": ["latency"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 361,
+    "title": "CDN Email",
+    "tags": ["email"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 429,
+    "title": "(APPX) Billing Free Tier (M0) App Service Charges",
+    "tags": ["Appx", "billing"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 430,
+    "title": "General Delete Charts from Project",
+    "tags": ["delete", "charts"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 432,
+    "title": "Billing Free tier(M0) Charts charges",
+    "tags": ["billing", "FreeTier"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 434,
+    "title": "General Database User Limit Increase",
+    "tags": ["limit"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 435,
+    "title": "General Data Deletion (M0 free Tier)/ M2/M5",
+    "tags": ["terminate"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 436,
+    "title": "\"General Data Transfer Limit for Shared Tier (M0",
+    "tags": [" M2"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 462,
+    "title": "Billing Update Payment Method Error",
+    "tags": ["billing", "payment"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 463,
+    "title": "Billing Monthly Threshold Reached",
+    "tags": ["billing", "threshold"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 468,
+    "title": "General Cloud Status Page",
+    "tags": ["status-page"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 471,
+    "title": "General abusive rude customer",
+    "tags": ["deflect", "abuse", "offensive"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 473,
+    "title": "General Personal API Key deprecated",
+    "tags": ["API-key"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 484,
+    "title": "Billing admin suspended account",
+    "tags": ["billing", "suspend"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 492,
+    "title": "Temporary Community Forum access",
+    "tags": ["community"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 495,
+    "title": "General University In browser IDE Space",
+    "tags": ["ide", "university"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 502,
+    "title": "Billing serverless RPU costs",
+    "tags": ["billing", "rpu", "serverless"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 508,
+    "title": "Failing Rolling Index Builds",
+    "tags": ["index"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 516,
+    "title": "(APPX) Create a support case",
+    "tags": ["Appx"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 517,
+    "title": "(APPX) New App Service users developers",
+    "tags": ["Appx"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 518,
+    "title": "(APPX) Deflect to developer community forum",
+    "tags": ["Appx", "community"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 519,
+    "title": "(APPX) Inquiry with tse-experts-app-services",
+    "tags": ["Appx"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 520,
+    "title": "(APPX) Deflect In-depth Support",
+    "tags": ["Appx"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 527,
+    "title": "Username email address change",
+    "tags": ["email"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 528,
+    "title": "Username multiple email address change",
+    "tags": ["email"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 534,
+    "title": "** INTERNAL NOTE SUPPORT TO SALES TRANSFER",
+    "tags": ["Transfer"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 535,
+    "title": "*INTERNAL NOTE SALES TO SUPPORT TRANSFER",
+    "tags": ["transfer"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 561,
+    "title": "Account username mismatch change",
+    "tags": ["username"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 600,
+    "title": "General Security breach concern",
+    "tags": ["security"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 616,
+    "title": "General Russia/Belarus Sanctions Response",
+    "tags": ["russia"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 624,
+    "title": "Version End of Life (EOL 4.4)",
+    "tags": ["eol"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 639,
+    "title": "General Professor Academia for Educators",
+    "tags": ["Educators"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 640,
+    "title": "Billing RBI regulation payment options",
+    "tags": ["india", "payment"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 655,
+    "title": "Lost Primary",
+    "tags": ["primary"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 656,
+    "title": "Disk space % used on Data Partition ",
+    "tags": ["space"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 674,
+    "title": "User Time Zone Preference",
+    "tags": ["timezone"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 678,
+    "title": "Unable to Reuse Deleted Account's Email (permanent)",
+    "tags": ["email"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 686,
+    "title": "FTS Worthiness - Finding the Impact of the Issue",
+    "tags": ["fts"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 689,
+    "title": "Flex Consulting",
+    "tags": ["support"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 705,
+    "title": "Email Verification Link Expired",
+    "tags": ["email"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 717,
+    "title": "Atlas SQL - Tableau ",
+    "tags": ["Tableau"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 721,
+    "title": "Non-SLA for Basic in-app chat support",
+    "tags": ["sla"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 733,
+    "title": "General FedRamp users",
+    "tags": ["fedramp"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 734,
+    "title": "FedRamp User No Access To Portal",
+    "tags": ["fedramp"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 735,
+    "title": "FedRamp User No Access & Prod Down",
+    "tags": ["fedramp"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 748,
+    "title": "Cloud Self-Serve Customer Requesting Tax refund",
+    "tags": ["tax", "refund"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 767,
+    "title": "End of shift - Leave Chat Open",
+    "tags": ["eod"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 768,
+    "title": "End of shift - Close Chat",
+    "tags": ["eod"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 771,
+    "title": "Fix Connection Issues ",
+    "tags": ["connection"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 778,
+    "title": "Unable to Pay Pending Invoice",
+    "tags": ["billing", "payment"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 789,
+    "title": "Resume Long Paused M0 cluster (snapshot version error)",
+    "tags": ["version", "resume"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 808,
+    "title": "Billing Change Details on Closed Invoice",
+    "tags": ["billing", "invoice"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 812,
+    "title": "Drop Database or Drop Collection Button Not Visible",
+    "tags": ["ui"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 846,
+    "title": "Regaining Organization Owner Access",
+    "tags": ["owner"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 847,
+    "title": "Payment Status as Processing (Indian card holders)",
+    "tags": ["india", "payment"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 855,
+    "title": "TS COMMS PLAYBOOK - INFOSEC-36767 ",
+    "tags": ["security"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 865,
+    "title": "Trigger Limit not increased with Cluster Upgrade",
+    "tags": ["trigger"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 868,
+    "title": "Unable to authenticate via GitHub",
+    "tags": ["Github"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 877,
+    "title": "Upgrade related performance issue",
+    "tags": ["upgrade", "downtime"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 883,
+    "title": "Connect via VS Code",
+    "tags": ["vsc", "connection"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 884,
+    "title": "Billing Serverless WPU Reimbursement Program",
+    "tags": ["serverless", "Billing"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 999,
+    "title": "EOL for Support of Amazon Linux 1 (AL1) on Cloud Manager",
+    "tags": ["eol"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1000,
+    "title": "Customer Cannot View Collections in the Atlas UI",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1001,
+    "title": "Charts - API exists? * Charts - API exists?",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1002,
+    "title": "Customer Cannot View Collections in the Atlas UI",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1003,
+    "title": "marty - student",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1004,
+    "title": "additional costs",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1005,
+    "title": "Atlas Pricing",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1006,
+    "title": "BK - SOC 2 (unassigned account)",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1007,
+    "title": "Book some time",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1008,
+    "title": "Brazil-- SDR",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1009,
+    "title": "Catherina - Calendar",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1010,
+    "title": "catherina - over the weekend",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1011,
+    "title": "Catherina-- late reply spanish",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1012,
+    "title": "Chili Piper Booking Form",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1013,
+    "title": "Colin: Community Questions",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1014,
+    "title": "Colin: Search Pricing",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1015,
+    "title": "Colin: SOC 2 Best Practice",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1016,
+    "title": "comm resource",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1017,
+    "title": "Community Question",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1018,
+    "title": "Compliance report reply",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1019,
+    "title": "Dar - intro",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1020,
+    "title": "Dar- open",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1021,
+    "title": "Dark Mode Support Reply",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1022,
+    "title": "Deflect to support triage- Manav",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1023,
+    "title": "dev support",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1024,
+    "title": "Developer Certification Exam",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1025,
+    "title": "EA call request",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1026,
+    "title": "Ellie / Apply credits to Atlas",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1027,
+    "title": "Ellie / Atlas pricing page",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1028,
+    "title": "Ellie / Close (no email)",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1029,
+    "title": "Ellie / Connect over email",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1030,
+    "title": "Ellie / Tax",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1031,
+    "title": "Ellie /Free Tier",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1032,
+    "title": "Ellie /Starter",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1033,
+    "title": "Ellie /Startup Contact",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1034,
+    "title": "Ellie/ Billing",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1035,
+    "title": "Ellie/ Resources for Community",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1036,
+    "title": "Ellie/ Start-up programme",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1037,
+    "title": "Enterprise Advance COST",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1038,
+    "title": "Enterprise Advanced - Mark",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1039,
+    "title": "Harshit's Intro",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1040,
+    "title": "Indya Atlas",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1041,
+    "title": "Indya bye",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1042,
+    "title": "Indya dev forums",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1043,
+    "title": "Indya mdb university",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1044,
+    "title": "jenny atlas only",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1045,
+    "title": "Jordy Atlas Username Password",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1046,
+    "title": "Jordy Subscription",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1047,
+    "title": "Lizna/ starter",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1048,
+    "title": "Lizna/Book a meeting",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1049,
+    "title": "mahima closing convo",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1050,
+    "title": "Mahima Intro 1",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1051,
+    "title": "marty - BBA",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1052,
+    "title": "Marty - Calendar",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1053,
+    "title": "Marty - Call",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1054,
+    "title": "Marty - Close",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1055,
+    "title": "Marty - cluster",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1056,
+    "title": "Marty - Duplicate",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1057,
+    "title": "marty - end",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1058,
+    "title": "Marty - event",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1059,
+    "title": "marty - forum",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1060,
+    "title": "Marty - internal",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1061,
+    "title": "Marty - Intro",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1062,
+    "title": "Marty - on-prem vs atlas",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1063,
+    "title": "Marty - pass",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1064,
+    "title": "marty - price",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1065,
+    "title": "marty - price",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1066,
+    "title": "Marty - pricing",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1067,
+    "title": "Marty - Pricing Pushback",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1068,
+    "title": "Marty - Speak Today?",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1069,
+    "title": "Marty - Support",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1070,
+    "title": "Marty - Uni",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1071,
+    "title": "marty-training",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1072,
+    "title": "MongoDB Community",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1073,
+    "title": "MongoDB Community",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1074,
+    "title": "NDA Jordy",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1075,
+    "title": "no response",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1076,
+    "title": "No response",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1077,
+    "title": "no response lavish",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1078,
+    "title": "Password Reset Support Portal",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1079,
+    "title": "Please wait",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1080,
+    "title": "Pricing Ques",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1081,
+    "title": "Pricing Request",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1082,
+    "title": "RCA (Root Cause Analysis) Request",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1083,
+    "title": "Request Compliance Reports",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1084,
+    "title": "Sales direct to online support form",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1085,
+    "title": "Sales to Support (Customer Reply)",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1086,
+    "title": "Services - Yulia",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1087,
+    "title": "Simon / calendar",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1088,
+    "title": "Simon / call",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1089,
+    "title": "Simon / close convo",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1090,
+    "title": "Simon / intro",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1091,
+    "title": "Simon / on prem v Atlas",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1092,
+    "title": "Simon / Pass",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1093,
+    "title": "Simon / Price",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1094,
+    "title": "Simon / Price pushback",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1095,
+    "title": "Simon / Pricing",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1096,
+    "title": "Simon / Uni",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1097,
+    "title": "SOC2",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1098,
+    "title": "Speak today",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1099,
+    "title": "Stephane: EA - Initial Information",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1100,
+    "title": "Submit Bugs",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1101,
+    "title": "Unresponsive Chats",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1102,
+    "title": "Use Case Email/Phone Request",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1103,
+    "title": "Vedant Intro",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1104,
+    "title": "VG - No Reply",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1105,
+    "title": "vg + sales qualified",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1106,
+    "title": "VG Aud",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1107,
+    "title": "vg billing",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1108,
+    "title": "VG Call",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1109,
+    "title": "VG Close Convo",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1110,
+    "title": "VG Costumer Transfer Support",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1111,
+    "title": "VG Demo",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1112,
+    "title": "VG enterprise Pricing",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1113,
+    "title": "VG Intro",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1114,
+    "title": "VG Meeting",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1115,
+    "title": "VG Narty",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1116,
+    "title": "VG no op",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1117,
+    "title": "VG Price Pushback",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1118,
+    "title": "VG Start up",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1119,
+    "title": "VG Support Community",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1120,
+    "title": "VG Support Internal",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1121,
+    "title": "VG Uni",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1122,
+    "title": "VG.A Support Atlas",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1123,
+    "title": "VG.S - Support to Sales _ Support plan",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1124,
+    "title": "wired tiger",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1125,
+    "title": "Yulia / Close (no email)",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1126,
+    "title": "Yulia / Invitation",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1127,
+    "title": "Yulia / Tax",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1128,
+    "title": "Yulia- Ask customer to intro themselves",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1129,
+    "title": "Yulia/ starter",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1130,
+    "title": "Yulia/ Apply credits to Atlas",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1131,
+    "title": "Yulia/ Billing",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1132,
+    "title": "Yulia/ Connect over email",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1133,
+    "title": "Yulia/ Resources for Community",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1134,
+    "title": "Yulia/ Start-up",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  },
+  {
+    "number": 1135,
+    "title": "Yulia/ Triage ***",
+    "tags": ["Sales"],
+    "text": "",
+    "description": ""
+  }
+]

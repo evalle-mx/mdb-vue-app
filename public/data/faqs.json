@@ -1,0 +1,46 @@
+[
+  {
+    "id": "account",
+    "title": "Account & Billing",
+    "panels": [
+      { "q": "How do I create an account?", "a": "Click Sign Up in the header and follow the on-screen steps." },
+      { "q": "How do I update my payment method?", "a": "Go to Account Settings > Billing and edit your saved card." },
+      { "q": "Can I get a refund?", "a": "Refunds are handled case by case - reach out via the Contact modal." }
+    ]
+  },
+  {
+    "id": "orders",
+    "title": "Orders & Shipping",
+    "panels": [
+      { "q": "How do I track my order?", "a": "Use the tracking link emailed to you after checkout." },
+      { "q": "What are the shipping times?", "a": "Standard shipping is 3-5 business days; express is 1-2 days." }
+    ]
+  },
+  {
+    "id": "technical",
+    "title": "Technical Issues",
+    "panels": [
+      { "q": "The page won't load, what do I do?", "a": "Try clearing your browser cache or opening in a private window." },
+      { "q": "Which browsers are supported?", "a": "The latest versions of Chrome, Firefox, Safari and Edge." },
+      { "q": "Is there a mobile app?", "a": "Not yet - this site is fully responsive on mobile browsers instead." },
+      { "q": "How do I report a bug?", "a": "Use the Contact modal in the header and describe the steps to reproduce." }
+    ]
+  },
+  {
+    "id": "privacy",
+    "title": "Privacy & Security",
+    "panels": [
+      { "q": "How is my data stored?", "a": "Data is stored securely and never sold to third parties." },
+      { "q": "How do I delete my account?", "a": "Contact support and we will remove your data within 30 days." }
+    ]
+  },
+  {
+    "id": "misc",
+    "title": "Miscellaneous",
+    "panels": [
+      { "q": "Do you offer discounts for students?", "a": "Yes, reach out with a valid student email for a discount code." },
+      { "q": "Where can I see your terms of service?", "a": "Linked in the site footer." },
+      { "q": "How do I unsubscribe from emails?", "a": "Use the unsubscribe link at the bottom of any email we send." }
+    ]
+  }
+]
