@@ -7,6 +7,16 @@
         "id": "billing-item-1",
         "title": "Problems to Paid, Extension required",
         "template": "templates/billing/apm-extrequest.html"
+      },
+      {
+        "id": "billing-item-2",
+        "title": "Organization/invoice state",
+        "template": "templates/billing/invoice-states.html"
+      },
+      {
+        "id": "billing-item-3",
+        "title": "Organization suspended",
+        "template": "templates/billing/org-suspended.html"
       }
     ]
   },
@@ -17,22 +27,22 @@
       {
         "id": "general-item-1",
         "title": "What is this site?",
-        "template": "templates/reply/tab1-item1.html"
+        "template": "templates/demo/tab1-item1.html"
       },
       {
         "id": "general-item-2",
         "title": "How is content organized?",
-        "template": "templates/reply/tab1-item2.html"
+        "template": "templates/demo/tab1-item2.html"
       },
       {
         "id": "general-item-3",
         "title": "Is this mobile friendly?",
-        "template": "templates/reply/tab1-item3.html"
+        "template": "templates/demo/tab1-item3.html"
       },
       {
         "id": "general-item-4",
         "title": "Can I reuse this template?",
-        "template": "templates/reply/tab1-item4.html"
+        "template": "templates/demo/tab1-item4.html"
       }
     ]
   },
@@ -43,22 +53,22 @@
       {
         "id": "technical-item-1",
         "title": "What build tool is used?",
-        "template": "templates/reply/tab2-item1.html"
+        "template": "templates/demo/tab2-item1.html"
       },
       {
         "id": "technical-item-2",
         "title": "How does routing work?",
-        "template": "templates/reply/tab2-item2.html"
+        "template": "templates/demo/tab2-item2.html"
       },
       {
         "id": "technical-item-3",
         "title": "How do tabs/accordions/modals work?",
-        "template": "templates/reply/tab2-item3.html"
+        "template": "templates/demo/tab2-item3.html"
       },
       {
         "id": "technical-item-4",
         "title": "Where did this text come from?",
-        "template": "templates/reply/tab2-item4.html"
+        "template": "templates/demo/tab2-item4.html"
       }
     ]
   },
@@ -69,22 +79,88 @@
       {
         "id": "deployment-item-1",
         "title": "How do I build the project?",
-        "template": "templates/reply/tab3-item1.html"
+        "template": "templates/demo/tab3-item1.html"
       },
       {
         "id": "deployment-item-2",
         "title": "How do I configure S3?",
-        "template": "templates/reply/tab3-item2.html"
+        "template": "templates/demo/tab3-item2.html"
       },
       {
         "id": "deployment-item-3",
         "title": "What do I upload?",
-        "template": "templates/reply/tab3-item3.html"
+        "template": "templates/demo/tab3-item3.html"
       },
       {
         "id": "deployment-item-4",
         "title": "Can I use a custom domain?",
-        "template": "templates/reply/tab3-item4.html"
+        "template": "templates/demo/tab3-item4.html"
+      }
+    ]
+  },
+  {
+    "id": "tab-dummy",
+    "label": "Demo",
+    "items": [
+      {
+        "id": "general-item-1",
+        "title": "What is this site?",
+        "template": "templates/demo/tab1-item1.html"
+      },
+      {
+        "id": "general-item-2",
+        "title": "How is content organized?",
+        "template": "templates/demo/tab1-item2.html"
+      },
+      {
+        "id": "general-item-3",
+        "title": "Is this mobile friendly?",
+        "template": "templates/demo/tab1-item3.html"
+      },
+      {
+        "id": "general-item-4",
+        "title": "Can I reuse this template?",
+        "template": "templates/demo/tab1-item4.html"
+      },
+      {
+        "id": "technical-item-1",
+        "title": "What build tool is used?",
+        "template": "templates/demo/tab2-item1.html"
+      },
+      {
+        "id": "technical-item-2",
+        "title": "How does routing work?",
+        "template": "templates/demo/tab2-item2.html"
+      },
+      {
+        "id": "technical-item-3",
+        "title": "How do tabs/accordions/modals work?",
+        "template": "templates/demo/tab2-item3.html"
+      },
+      {
+        "id": "technical-item-4",
+        "title": "Where did this text come from?",
+        "template": "templates/demo/tab2-item4.html"
+      },
+      {
+        "id": "deployment-item-1",
+        "title": "How do I build the project?",
+        "template": "templates/demo/tab3-item1.html"
+      },
+      {
+        "id": "deployment-item-2",
+        "title": "How do I configure S3?",
+        "template": "templates/demo/tab3-item2.html"
+      },
+      {
+        "id": "deployment-item-3",
+        "title": "What do I upload?",
+        "template": "templates/demo/tab3-item3.html"
+      },
+      {
+        "id": "deployment-item-4",
+        "title": "Can I use a custom domain?",
+        "template": "templates/demo/tab3-item4.html"
       }
     ]
   }

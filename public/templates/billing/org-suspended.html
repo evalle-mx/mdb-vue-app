@@ -1,0 +1,90 @@
+<small> Macro: * Steps for customers to locate failed invoices, in SUSPENDED state - 1366</small>
+
+<!-- 
+<div class="card">
+    <div class="card-header" data-bs-toggle="collapse" data-bs-target="#BODYID" aria-expanded="false"
+        role="button" style="cursor: pointer;">
+        TITLE
+    </div>
+    <div class="collapse bg-light" id="BODYID">
+        <div class="card-body">
+           <b>BODY</b>
+        </div>
+    </div>
+</div> -->
+
+<div class="card">
+    <div class="card-header" data-bs-toggle="collapse" data-bs-target="#extension-req" aria-expanded="false"
+        role="button" style="cursor: pointer;">
+        Problems to Paid, Extension required
+    </div>
+    <div class="collapse bg-light" id="extension-req">
+        <div class="card-body">
+            <p>I fully understand how crucial it is for your business to have continuous access to your services.</p>
+            <p>If you are currently having inconveniences to complete the payments, my team is definitively open to help
+                you in the most convenient way. In order to request an extension, could you please share the following
+                details with us:</p>
+            <ul>
+                <li>
+                    <p>Atlas Organization name or ID that requires a consideration or grace period (Access to
+                        Organization settings by click on the Home icon on Top Left).</p>
+                </li>
+                <li>
+                    <p>The Invoice Numbers that you are concern (click on each invoice to find this number).</p>
+                </li>
+                <li>
+                    <p>The reason explained for this request or consideration (Be concise about the situation that
+                        prevents you from completing the payment).</p>
+                </li>
+                <li>
+                    <p>An estimate date or period to perform any actions or complete pending payments (provide a
+                        commitment date, which is important so that our team can evaluate).</p>
+                </li>
+            </ul>
+            <p>Once I receive all the above, I will be relaying this request to our concerned team and will let you know
+                their response as soon as I have an update from them.</p>
+            <p>Thank you for your collaboration to assist you as soon as possible.</p>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header" data-bs-toggle="collapse" data-bs-target="#empty-ipaccess" aria-expanded="false"
+        role="button" style="cursor: pointer;">
+        PAID, but unable to connect
+    </div>
+    <div class="collapse bg-light" id="empty-ipaccess">
+        <div class="card-body">
+            <p data-pm-slice="1 1 []">I understand that you are having connectivity issues after removing a suspension
+                on your organization; consider that when your account is <strong>SUSPENDED</strong>, this means that
+                <strong>has at least one failed payment more than 30 days past due</strong>, and once this suspension
+                takes effect, backups are automatically stopped (not deleted). Also, the <strong>network access</strong>
+                list&nbsp;and <strong>security configuration</strong> could be deleted/removed in this period. In order
+                to remove this <strong><em>SUSPENDED</em></strong> state, the Owner must pay any outstanding bills to
+                resume service, and after the pending invoices have been covered, your service should be resumed.
+            </p>
+            <p>However, if after this <strong>suspended</strong> state is removed (being healthy or in
+                <strong>WARNING</strong>&nbsp;state) and your client or application is unable to connect, you will need
+                to verify that the <strong><em>client/application IP address</em></strong> is listed in your <a
+                    href="https://cloud.mongodb.com/go?l=https%3A%2F%2Fcloud.mongodb.com%2Fv2%2F%3Cproject%3E%23%2Fsecurity%2Fnetwork%2FaccessList">Network
+                    IP Access List</a>, and/or has an <a
+                    href="https://www.mongodb.com/docs/atlas/security-vpc-peering/">Active Peering</a> Connection or
+                Private Endpoint.
+            </p>
+            <img src="imgs/projclust/IP-AccessList.png" alt="Empty IP Access List"
+                class="img-fluid rounded shadow-sm mb-2 commonreply-img " />
+            <p data-pm-slice="1 1 []">Note that since there is no feature to restore the Access list, it would be
+                required to <strong>Manually</strong> <a
+                    href="https://www.mongodb.com/docs/atlas/security/ip-access-list/#add-ip-access-list-entries">Add
+                    the IP Address to Your IP Access List</a> or Configure your <a
+                    href="https://www.mongodb.com/docs/atlas/security-vpc-peering/#configure-an-service-network-peering-connection">Peering
+                    Connection</a>, <b>Note</b> that if this is urgent or you have no idea what the IP's were, add
+                <strong>TEMPORARY</strong>
+                access From anywhere to un-restrict Ips.
+            </p>
+            <p>(Later, you could find the previous entries added by filtering the <a
+                    href="https://www.mongodb.com/docs/atlas/tutorial/activity-feed/#navigate-to-the-activity-feed-page-for-your-project">Project
+                    Activity Feed</a> by events related to <strong>Network Permission Entry</strong>). </p>
+        </div>
+    </div>
+</div>

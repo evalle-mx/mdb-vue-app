@@ -39,3 +39,10 @@ main {
   font-weight: bold;
   color: tomato;
 }
+
+.commonreply-img {
+  max-width: 500px;
+  max-height: 500px; /* Set your desired max height */
+  height: auto;
+  width: auto;
+}

@@ -63,6 +63,7 @@
         <!-- 2) Three icons, each opens its own Bootstrap modal.
              data-bs-toggle="modal" + data-bs-target is all Bootstrap needs;
              no extra JS wiring required, it's handled by bootstrap.bundle.js. -->
+        <!-- #### Admin/Quick search  ###  -->
         <div class="d-flex gap-3">
           <a
             href="#"
@@ -74,7 +75,19 @@
           >
             <i class="bi bi-search"></i>
           </a>
+          <!-- MFA -->
+          <a
+            href="#"
+            class="text-light fs-5"
+            title="MFA Reset"
+            data-bs-toggle="modal"
+            data-bs-target="#mfaResetModal"
+            @click.prevent
+          >
+            <i class="bi bi-lock"></i>
+          </a>
 
+          <!-- INFO -->
           <a
             href="#"
             class="text-light fs-5"
@@ -385,11 +398,45 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal for MFA Reset -->
+
+  <div
+    class="modal fade"
+    id="mfaResetModal"
+    tabindex="-1"
+    aria-labelledby="mfaResetModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="mfaResetModalLabel">
+            <i class="bi bi-lock me-2"></i>MFA Reset
+          </h5>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="modal-body">
+          <!-- MFA reset content goes here -->
+          <b>MFA Reset Content</b>
+          <div
+            v-template-url="resolveTemplate('templates/modal/mfa-reset.html')"
+          ></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script setup>
 import { computed, onMounted, reactive, ref } from "vue";
 import { useFetch } from "../composables/useFetch";
+import { resolveTemplate } from "../assets/scripts/utils";
 
 // Simple reactive state for the demo modals - replace with real logic/store as needed
 const contactForm = reactive({ name: "", message: "" });

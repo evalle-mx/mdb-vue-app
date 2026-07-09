@@ -102,6 +102,7 @@
 <script setup>
 import { computed, onMounted } from "vue";
 import { useFetch } from "../composables/useFetch";
+import { resolveTemplate } from "../assets/scripts/utils";
 
 // The tabs/accordion structure (labels, items, template paths) now comes
 // from an external JSON file instead of being hardcoded in the component.
@@ -120,7 +121,4 @@ const tabs = computed(() => data.value || []);
 // "templates/reply/tab1-item1.html"); this prepends Vite's BASE_URL so the
 // fetch inside v-template-url works whether the site is hosted at a domain
 // root or a sub-path.
-function resolveTemplate(path) {
-  return `${import.meta.env.BASE_URL}${path}`;
-}
 </script>

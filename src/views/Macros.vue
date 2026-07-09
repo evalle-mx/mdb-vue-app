@@ -92,6 +92,7 @@
 <script setup>
 import { computed, onMounted, ref } from "vue";
 import { useFetch } from "../composables/useFetch";
+import { resolveTemplate } from "../assets/scripts/utils";
 
 const { data, error, loading, load } = useFetch(
   `${import.meta.env.BASE_URL}data/intercom-macros.json`,
@@ -128,8 +129,4 @@ const filteredMacros = computed(() => {
     return numberMatch || titleMatch || tagsMatch;
   });
 });
-
-function resolveTemplate(path) {
-  return `${import.meta.env.BASE_URL}${path}`;
-}
 </script>

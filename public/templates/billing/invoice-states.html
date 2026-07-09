@@ -1,0 +1,70 @@
+<!-- WARNING, How long? -->
+<div class="card bg-primary mb-3">
+
+    <div class="card-header" data-bs-toggle="collapse" data-bs-target="#warning-state" aria-expanded="false"
+        role="button" style="cursor: pointer;">
+        WARNING, How long?
+    </div>
+
+    <div class="collapse bg-light" id="warning-state">
+        <div class="card-body">
+            <p>If your organization is in <code>WARNING</code> state, it means we have received at least one failed
+                payment, but your organization has not yet been suspended.
+                <br>
+                However, if any failed payment reaches the end or period (becomes <b>more than 30 days past due</b>),
+                the following actions will
+                occur:
+            </p>
+            <p>
+                Project backups will be <b>automatically stopped</b> (they are not deleted).
+                Your Network Access List and Security configurations <b>may be deleted</b>.
+                You will need to pay all outstanding bills in full to resume normal service.
+            </p>
+            <p>
+                <b>Note:</b> Each billing period runs from the 1st day of the month.
+            </p>
+            <p>
+                For more details, pleases refer to our <a
+                    href="https://www.mongodb.com/docs/atlas/reference/faq/billing/#what-happens-if-i-do-not-pay-my-invoice-"
+                    target="_blank" rel="noopener noreferrer">FAQ: Billing</a> page.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- SUSPENDED, initial description -->
+<div class="card bg-warning mb-3">
+
+    <div class="card-header" data-bs-toggle="collapse" data-bs-target="#suspended-state" aria-expanded="false"
+        role="button" style="cursor: pointer;">
+        SUSPENDED, Initial description
+    </div>
+
+    <div class="collapse bg-light" id="suspended-state">
+        <div class="card-body">
+            <p>
+                Consider that when your account is in <code>SUSPENDED</code> state, it means that your organization has
+                been suspended due to non-payment of invoices, <b>at least one failed payment has more than
+                    30 days past due</b>. Once starting this suspension, Backups are automatically stopped, not
+                terminated,
+                also, Network Access List and Security configuration could be deleted in this period.
+                <br>
+                To resume normal service, you will need to pay all outstanding bills in full.
+            </p>
+            <p>
+                In order to remove this <code>SUSPENDED</code> state, your organization Owner or Organization Billing
+                admin must pay any outstanding bills to resume
+                service, once payment is made, this suspension on your organization will be removed.
+            </p>
+            <p>
+                <b>Note:</b> Each billing period runs from the 1st day of the month.
+            </p>
+            <p>
+                For more details, pleases refer to our <a
+                    href="https://www.mongodb.com/docs/atlas/billing/#missed-invoice-payments" target="_blank"
+                    rel="noopener noreferrer">Missed Invoice Payments</a> page.
+            </p>
+        </div>
+    </div>
+</div>

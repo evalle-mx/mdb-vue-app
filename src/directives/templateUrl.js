@@ -21,39 +21,63 @@
  *   you'd need the Vue runtime compiler (@vue/compiler-sfc / compile+render),
  *   which is out of scope for a basic static-content include like this.
  * - A tiny in-memory cache avoids re-fetching the same partial twice.
+ * - Because the injected HTML isn't compiled by Vue, `@click="..."` inside a
+ *   partial does nothing. Instead, partials mark interactive elements with
+ *   `data-action="someName"`, and after each injection this directive wires
+ *   those elements up to matching functions from the shared
+ *   `templateActions` registry (src/assets/scripts/templateActions.js).
+ *   See public/templates/reply/tab1-item1.html for an example button.
  */
+import { templateActions } from "../assets/scripts/templateActions";
 
-const cache = new Map()
+const cache = new Map();
+
+// Finds every `[data-action]` element inside `el` and binds a click listener
+// that looks up and invokes the matching function from templateActions.
+function bindActions(el) {
+  el.querySelectorAll("[data-action]").forEach((node) => {
+    const actionName = node.dataset.action;
+    const action = templateActions[actionName];
+
+    if (!action) {
+      console.warn(`v-template-url: no action registered for "${actionName}"`);
+      return;
+    }
+
+    node.addEventListener("click", (event) => action(event, node));
+  });
+}
 
 async function loadTemplate(el, url) {
-  if (!url) return
+  if (!url) return;
 
   el.innerHTML =
-    '<div class="text-muted small py-2"><span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Loading...</div>'
+    '<div class="text-muted small py-2"><span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Loading...</div>';
 
   try {
-    let html = cache.get(url)
+    let html = cache.get(url);
     if (!html) {
-      const res = await fetch(url)
-      if (!res.ok) throw new Error(`HTTP ${res.status} while fetching ${url}`)
-      html = await res.text()
-      cache.set(url, html)
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`HTTP ${res.status} while fetching ${url}`);
+      html = await res.text();
+      cache.set(url, html);
     }
-    el.innerHTML = html
+    el.innerHTML = html;
+    bindActions(el);
   } catch (err) {
-    el.innerHTML = `<div class="alert alert-danger py-2 mb-0 small">Could not load template: ${err.message}</div>`
+    el.innerHTML = `<div class="alert alert-danger py-2 mb-0 small">Could not load template: ${err.message}</div>`;
   }
 }
 
 export default {
   // Runs once the bound element is inserted into the DOM
   mounted(el, binding) {
-    loadTemplate(el, binding.value)
+    loadTemplate(el, binding.value);
   },
   // Re-fetch if the bound URL changes (e.g. switching tabs re-uses the node)
   updated(el, binding) {
     if (binding.value !== binding.oldValue) {
-      loadTemplate(el, binding.value)
+      loadTemplate(el, binding.value);
     }
-  }
-}
+  },
+};

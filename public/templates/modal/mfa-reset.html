@@ -1,0 +1,109 @@
+<h5>MFA Reset (Init)</h5>
+<!-- Initial response, first step to verify the account ownership and proceed with the MFA reset process -->
+<div class="alert alert-primary d-flex align-items-start" role="alert">
+    <i class="bi bi-leaf me-2 fs-5"></i>
+    <div>
+        Ok, in order to assist you better in reseting your MFA, I would need a quick confirmation from you
+        whether you are able to access through or have set up other <a
+            href="https://docs.atlas.mongodb.com/security-multi-factor-authentication/" target="_blank">MFA
+            options</a> for your Atlas account?
+        <hr>
+        Before we can reset your multi-factor authentication (MFA) settings, we need to verify that you are the owner of
+        this MongoDB Atlas account.
+        I will send a verification code to the email address associated with your account.
+        Please check your inbox (and also your Spam or Promotions folders) for the email, then reply to this message
+        with the verification code you receive. <br>
+        Once we confirm the code, we can proceed with resetting your MFA.
+        Thank you for your patience.
+    </div>
+</div>
+
+
+<!-- MFA Reset (Code Draft for Email) -->
+<div class="alert alert-light d-flex align-items-start" role="alert">
+    <i class="bi bi-envelope me-2 fs-5"></i>
+    <div id="div-mfa">
+
+        <p>Hello,</p>
+        <p>We have received a request to reset the <b>Multi-Factor Authentication (MFA)</b> for your MongoDB Atlas
+            account.</p>
+        <p>Please use the following verification code to confirm your identity and proceed with the MFA reset process:
+        </p>
+        <!-- <pre>[Verification Code]</pre> -->
+        <h3 id="reply-preview">XX00X0</h3>
+        <p>If you did not request this reset, please ignore this email. Your account remains secure.</p>
+        <p>Thank you,</p>
+        <p>The MongoDB Atlas Team</p>
+        <hr>
+
+        <button type="button" class="btn btn-sm btn-danger" data-action="genRdmCode" data-target="reply-preview">
+            <i class="bi bi-arrow-repeat me-1"></i>
+        </button>
+
+        <!-- <p data-content>This is a demo static site built with <strong>Vue 3</strong> and <strong>Bootstrap 5</strong>. -->
+        </p>
+    </div>
+</div>
+
+<!-- MFA Reset (Code Confirmation) -->
+<div class="alert alert-warning d-flex align-items-start" role="alert">
+    <i class="bi bi-check-all me-2 fs-5"></i>
+    <div id="div-mfa">
+        Alright, thank you for confirming the code. We will proceed with manually resetting your MFA with our
+        accounts team. Consider that this may take some time for our team to reset your MFA, and we cannot
+        give any ETA. <br>
+        I'll reach out <b>via this chat</b> once I receive an update from them.
+
+        <hr>
+        Thank you for confirming the code. I will work with our internal team to manually reset your MFA.
+        Please note that the reset process may take some time, and we're unable to provide an exact timeline
+        at the moment. Rest assured, I'll keep you updated <b>here in this chat</b> as soon as I receive any updates
+        from the team.
+    </div>
+</div>
+
+<!-- MFA Reset (Confirmation) -->
+<div class="alert alert-success d-flex align-items-start" role="alert">
+    <i class="bi bi-check-square-fill me-2 fs-5"></i>
+    <div>
+        Hi please be informed that the MFA on your account has been reset.
+        You may retry logging in to MongoDB Atlas again.
+        <br>
+        Upon successful login, if you intend to re-enable <b>Multi-factor authentication</b>, we highly
+        recommend
+        implementing at a minimum two configured MFA factors to avoid future
+        lock out situations where you may need to change phones or lose access to your auth apps, etc.
+        <br>
+        Consider that <i>SMS option</i> was recently deprecated, these are the available options:
+        <ul>
+            <li>Security Key / Biometrics</li>
+            <li>Okta Verify Mobile App</li>
+            <li>Authenticator App (TOTP)</li>
+            <li>Email (use with caution)</li>
+        </ul>
+        For more information on how to set up MFA, please refer to the following documentation:
+        <a href="https://docs.atlas.mongodb.com/security-multi-factor-authentication/" target="_blank">Multi-Factor
+            Authentication (MFA) Setup Guide</a>.
+    </div>
+</div>
+
+<hr>
+
+<!-- OTHER MESSAGES: -->
+<div class="alert alert-danger d-flex align-items-start" role="alert">
+    <p>
+        I've searched in our records, and I can validate that multiple emails had been sent to
+        your email address, you may need to <b>check your spam/Promotions/blocked folder</b> for this email and search
+        for
+        any email received from mongodb-account@mongodb.com, otherwise, please confirm with your IT staff or email
+        administrator if there any
+        restriction set in your account for receiving emails with external links.
+        <br><br>
+        Apologies for the delay, I can confirm that email messages were sent to YOUR EMAIL ADDRESS recently,
+        If you're using a company managed email service or Firewall, it is possible there are security
+        regulations in place to avoid email scams or phishing attacks.
+
+        If you're using a company managed email address, it is possible that some security regulations are in
+        place to avoid email scams or phishing attacks.
+    </p>
+</div>
