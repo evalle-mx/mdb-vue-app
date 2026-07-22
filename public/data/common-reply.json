@@ -25,6 +25,16 @@
     "label": "General",
     "items": [
       {
+        "id": "Wait-replies",
+        "title": "Wait responses",
+        "template": "templates/general/wait-reply.html"
+      },
+      {
+        "id": "hello-reply",
+        "title": "Hello ...",
+        "template": "templates/general/hello-reply.html"
+      },
+      {
         "id": "general-item-1",
         "title": "What is this site?",
         "template": "templates/demo/tab1-item1.html"

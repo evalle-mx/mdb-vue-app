@@ -1,0 +1,91 @@
+<div>
+    <p><strong>Auto-scaling</strong> looks at the average utilization of <strong>CPU and memory</strong> within the
+        evaluation time window. <a href="https://www.mongodb.com/docs/atlas/cluster-autoscaling/"
+            target="_blank">Auto-scaling</a>&nbsp;is triggered based on
+        the average workload of the previous hour. For cluster-tier auto-scaling, it monitors CPU and memory usage.</p>
+    <p><strong>A cluster scales up if the average CPU or memory utilization exceeds 75% for an hour</strong>. It scales
+        down if both CPU and memory utilization are below 50% for 24 hours. Storage auto-scaling increases storage when
+        disk usage reaches 90%, with specific behaviors depending on the cloud provider.</p>
+    <p>If there are concerns about CPU or memory impact, we recommend manually scaling up the cluster if you anticipate
+        a period of high workload to avoid performance issues.</p>
+    <p>For more information, here are the main <b>Atlas auto-scaling</b> docs:</p>
+    <ul>
+        <li><span tabindex="0" data-base-ui-click-trigger=""><a
+                    href="https://www.mongodb.com/docs/atlas/cluster-autoscaling/" target="_blank"
+                    rel="noreferrer">Configure Auto-Scaling</a></span> &mdash; main overview for reactive/predictive
+            compute auto-scaling, storage auto-scaling, bounds, eligibility, and alerts.</li>
+        <li><span tabindex="0" data-base-ui-click-trigger=""><a href="https://www.mongodb.com/docs/atlas/scale-cluster/"
+                    target="_blank" rel="noreferrer">Modify a Cluster</a></span> &mdash; where auto-scaling options fit
+            into broader cluster scaling and topology changes.</li>
+        <li><span tabindex="0" data-base-ui-click-trigger=""><a
+                    href="https://www.mongodb.com/docs/atlas/customize-storage/" target="_blank"
+                    rel="noreferrer">Customize Cluster Storage</a></span> &mdash; storage behavior, oplog implications,
+            and storage auto-scaling details.</li>
+        <li><span tabindex="0" data-base-ui-click-trigger=""><a
+                    href="https://www.mongodb.com/docs/atlas/reference/alert-conditions/" target="_blank"
+                    rel="noreferrer">Review Alert Conditions</a></span> &mdash; auto-scaling alert types.</li>
+        <li><span tabindex="0" data-base-ui-click-trigger=""><a
+                    href="https://www.mongodb.com/docs/atlas/reference/alert-resolutions/atlas-autoscaling-alerts/"
+                    target="_blank" rel="noreferrer">Fix Auto-Scaling Issues</a></span> &mdash; troubleshooting
+            auto-scaling alerts/events.</li>
+        <li><span tabindex="0" data-base-ui-click-trigger=""><a
+                    href="https://www.mongodb.com/docs/atlas/sizing-tier-selection/" target="_blank"
+                    rel="noreferrer">Atlas Cluster Sizing and Tier Selection</a></span> &mdash; sizing guidance plus
+            when/how auto-scaling helps.</li>
+    </ul>
+    <p>If you need API-specific links too, use:</p>
+    <ul>
+        <li><span tabindex="0" data-base-ui-click-trigger=""><a
+                    href="https://www.mongodb.com/docs/api/doc/atlas-admin-api-v2/" target="_blank"
+                    rel="noreferrer">Atlas Admin API v2 docs</a></span></li>
+    </ul>
+
+    <hr>
+    <p>Consider that escalation is automatically launched via an algorithm based on&nbsp;<strong>CPU and
+            Memory</strong>&nbsp;usage; however, this is&nbsp;<strong>not triggered immediately</strong>&nbsp;and is
+        based on statistics for usage.</p>
+    <p>A cluster must meet two conditions to scale up:</p>
+    <ol>
+        <li>The average CPU utilization or average memory utilization exceeds 75% for 1 hour, and</li>
+        <li>The cluster has not resumed from a paused state or scaled in the past hour.</li>
+    </ol>
+    <p>That means that the cluster will be modified temporarily to the next tier if it is required or just for the
+        resources that it could need, doing this one node at a time, and no downtime is expected (this may vary if the
+        workload exceeds the current capacity in a peak).</p>
+    <p>The calculation for&nbsp;<strong>CPU</strong>&nbsp;utilization is:</p>
+    <pre> % of normalized user CPU + % normalized kernel CPU</pre>
+    <p>The calculation for&nbsp;<strong>Memory</strong>&nbsp;utilization is</p>
+    <pre> (total system memory - free system memory - file system cache - buffer memory) / total system memory </pre>
+    <p>As the System Memory chart in Atlas does not provide free system memory, file system cache, and buffer memory,
+        you can approximate memory utilization with the following formula:</p>
+    <pre> (total memory - memory available)/total memory * 100 = memory utilization </pre>
+    <p>You can see more details on the&nbsp;<a
+            href="https://www.mongodb.com/docs/atlas/cluster-autoscaling/#configure-auto-scaling" target="_blank"
+            rel="noopener noreferrer">Configure Auto-Scaling</a>&nbsp;documentation.</p>
+    <p>Note that the Atlas auto-scaling feature is designed to address long-term sustained growth rather than sudden
+        known surges in workload. MongoDB is working on improvements to ensure clusters trigger auto-scaling up/down on
+        behalf of our customers. You can&nbsp;<a
+            href="https://www.mongodb.com/docs/atlas/cluster-autoscaling/#configure-auto-scaling-options"
+            target="_blank" rel="noopener noreferrer">configure some characteristics,</a>&nbsp;such as the
+        <strong>maximum cluster size</strong>&nbsp;and <strong>minimum cluster size values,</strong>&nbsp;that your
+        cluster can automatically scale to; nevertheless, this feature was not intended for handling very spiky/sudden
+        workloads.
+    </p>
+
+    <hr>
+    <h5>Work-around</h5>
+    <p>Unfortunately, this configuration is not mutable, and it works the same in all the instances; however, a
+        workaround for this is you could&nbsp;<a href="https://www.mongodb.com/docs/atlas/configure-alerts/"
+            target="_blank" rel="noopener noreferrer">Configure an Alert</a>&nbsp;when your CPU usage has
+        additional&nbsp;<a href="https://www.mongodb.com/docs/atlas/reference/alert-conditions/" target="_blank"
+            rel="noopener noreferrer">conditions</a>&nbsp;that notify the admin or someone that could run a script or
+        manually request a tier increment.</p>
+    <p>Your developer or DBA admin may create an script to run on your end that could take advantage of the&nbsp;<a
+            href="https://www.mongodb.com/docs/api/doc/atlas-admin-api-v2/operation/operation-updategroupclusterprocessargs"
+            target="_blank" rel="noopener noreferrer">MongoDB Atlas Admin API</a>&nbsp;when this receives any specific
+        notification(s).</p>
+
+    <hr>
+    <small>Ref: KB <a href="https://support.mongodb.com/article/000020484" target="_blank"
+            rel="noopener noreferrer">What triggers auto-scaling in Atlas article </a></small>
+</div>

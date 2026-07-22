@@ -1,52 +1,397 @@
 [
   {
-    "id": "getting-started",
-    "title": "Getting Started",
-    "description": "Everything you need for your first steps.",
+    "id": "account-access",
+    "title": "Account & access",
+    "description": "Create, recover, and manage an Atlas account.",
     "links": [
-      { "label": "Installation guide", "url": "#" },
-      { "label": "Project structure", "url": "#" },
-      { "label": "Running locally", "url": "#" }
+      {
+        "label": "Create a MongoDB account",
+        "url": "https://account.mongodb.com/account/register"
+      },
+      {
+        "label": "Sign in to Atlas",
+        "url": "https://account.mongodb.com/account/login"
+      },
+      {
+        "label": "Reset your password",
+        "url": "https://account.mongodb.com/account/reset/password"
+      },
+      {
+        "label": "Manage your MongoDB Atlas account",
+        "url": "https://www.mongodb.com/docs/atlas/security/manage-your-mongodb-atlas-account/"
+      },
+      {
+        "label": "Reset two-factor authentication (Atlas)",
+        "url": "https://account.mongodb.com/account/reset/mfa/atlas"
+      },
+      {
+        "label": "Reset two-factor authentication (Cloud Manager)",
+        "url": "https://account.mongodb.com/account/reset/mfa/cloud"
+      }
     ]
   },
   {
-    "id": "deployment",
-    "title": "Deployment",
-    "description": "Shipping this site to AWS S3.",
+    "id": "clusters",
+    "title": "Clusters & configuration",
+    "description": "Deploy, scale, pause, and manage Atlas deployments.",
     "links": [
-      { "label": "Building for production", "url": "#" },
-      { "label": "Creating an S3 bucket", "url": "#" },
-      { "label": "Static website hosting settings", "url": "#" },
-      { "label": "CloudFront + custom domain (optional)", "url": "#" }
+      {
+        "label": "Atlas cluster types",
+        "url": "https://www.mongodb.com/docs/atlas/create-database-deployment/#cluster-types"
+      },
+      {
+        "label": "Deploy a free cluster",
+        "url": "https://www.mongodb.com/docs/atlas/tutorial/deploy-free-tier-cluster/"
+      },
+      {
+        "label": "Modify a cluster",
+        "url": "https://www.mongodb.com/docs/atlas/scale-cluster/"
+      },
+      {
+        "label": "Pause or terminate a cluster",
+        "url": "https://www.mongodb.com/docs/atlas/pause-terminate-cluster/"
+      },
+      {
+        "label": "Atlas limits",
+        "url": "https://www.mongodb.com/docs/atlas/reference/atlas-limits/"
+      },
+      {
+        "label": "View and download MongoDB logs",
+        "url": "https://www.mongodb.com/docs/atlas/architecture/current/logging/"
+      }
     ]
   },
   {
-    "id": "components",
-    "title": "UI Components",
-    "description": "Reusable Bootstrap-based building blocks.",
+    "id": "networking",
+    "title": "Networking & connections",
+    "description": "Connect applications securely and troubleshoot access.",
     "links": [
-      { "label": "Cards & collapsibles", "url": "#" },
-      { "label": "Tabs & accordions", "url": "#" },
-      { "label": "Modals", "url": "#" }
+      {
+        "label": "Troubleshoot connection issues",
+        "url": "https://www.mongodb.com/docs/atlas/troubleshoot-connection/"
+      },
+      {
+        "label": "Connect with mongosh",
+        "url": "https://www.mongodb.com/docs/atlas/mongo-shell-connection/"
+      },
+      {
+        "label": "Connect with Compass",
+        "url": "https://www.mongodb.com/docs/atlas/compass-connection/"
+      },
+      {
+        "label": "Connect with a driver",
+        "url": "https://www.mongodb.com/docs/atlas/driver-connection/"
+      },
+      {
+        "label": "Set up network peering",
+        "url": "https://www.mongodb.com/docs/atlas/security-vpc-peering/"
+      },
+      {
+        "label": "Set up a private endpoint",
+        "url": "https://www.mongodb.com/docs/atlas/security-private-endpoint/"
+      },
+      {
+        "label": "Add an IP access-list entry",
+        "url": "https://www.mongodb.com/docs/atlas/security/ip-access-list/"
+      }
     ]
   },
   {
-    "id": "data",
-    "title": "Working with Data",
-    "description": "Fetching local and remote JSON resources.",
+    "id": "billing",
+    "title": "Billing & support",
+    "description": "Pricing, invoices, payments, and support-plan details.",
     "links": [
-      { "label": "Local /public JSON files", "url": "#" },
-      { "label": "Remote HTTP APIs", "url": "#" },
-      { "label": "Loading and error states", "url": "#" }
+      { "label": "MongoDB pricing", "url": "https://www.mongodb.com/pricing" },
+      {
+        "label": "Atlas support plans and pricing",
+        "url": "https://www.mongodb.com/cloud/atlas/pricing/support-subscriptions"
+      },
+      {
+        "label": "Manage Atlas billing",
+        "url": "https://www.mongodb.com/docs/atlas/billing/"
+      },
+      {
+        "label": "Download past invoices",
+        "url": "https://www.mongodb.com/docs/atlas/billing/invoices/#download-past-invoices"
+      },
+      {
+        "label": "Update your payment method",
+        "url": "https://www.mongodb.com/docs/atlas/billing/"
+      },
+      {
+        "label": "Retry a failed payment",
+        "url": "https://www.mongodb.com/docs/atlas/billing/#retry-a-failed-payment"
+      }
+    ]
+  },
+  {
+    "id": "downloads",
+    "title": "Downloads & tools",
+    "description": "Install MongoDB software, shell, and database utilities.",
+    "links": [
+      {
+        "label": "MongoDB Community Server downloads",
+        "url": "https://www.mongodb.com/try/download/community"
+      },
+      {
+        "label": "MongoDB downloads",
+        "url": "https://www.mongodb.com/try/download/"
+      },
+      {
+        "label": "Install MongoDB Community Edition",
+        "url": "https://www.mongodb.com/docs/manual/installation/"
+      },
+      {
+        "label": "Install the Database Tools",
+        "url": "https://www.mongodb.com/docs/database-tools/installation/"
+      },
+      {
+        "label": "Install mongosh",
+        "url": "https://www.mongodb.com/docs/mongodb-shell/install/"
+      },
+      {
+        "label": "Install Atlas CLI",
+        "url": "https://www.mongodb.com/docs/atlas/cli/stable/install-atlas-cli/"
+      }
+    ]
+  },
+  {
+    "id": "backup",
+    "title": "Backup & restore",
+    "description": "Protect data and restore clusters or exported data.",
+    "links": [
+      {
+        "label": "Configure a backup compliance policy",
+        "url": "https://www.mongodb.com/docs/atlas/backup/cloud-backup/backup-compliance-policy/"
+      },
+      {
+        "label": "Restore a cluster from cloud backup",
+        "url": "https://www.mongodb.com/docs/atlas/backup/cloud-backup/restore-overview/"
+      },
+      {
+        "label": "mongodump reference",
+        "url": "https://www.mongodb.com/docs/database-tools/mongodump/"
+      },
+      {
+        "label": "mongorestore reference",
+        "url": "https://www.mongodb.com/docs/database-tools/mongorestore/"
+      },
+      {
+        "label": "Export a cloud backup snapshot",
+        "url": "https://www.mongodb.com/docs/atlas/backup/cloud-backup/export/"
+      },
+      {
+        "label": "Backup architecture guidance",
+        "url": "https://www.mongodb.com/docs/atlas/architecture/current/backups/"
+      }
+    ]
+  },
+  {
+    "id": "app-services",
+    "title": "App Services & Data API",
+    "description": "Build applications with Atlas App Services, Realm, and APIs.",
+    "links": [
+      {
+        "label": "Atlas App Services",
+        "url": "https://www.mongodb.com/docs/atlas/app-services/"
+      },
+      {
+        "label": "Atlas Data API",
+        "url": "https://www.mongodb.com/docs/atlas/app-services/data-api/"
+      },
+      {
+        "label": "Data API examples",
+        "url": "https://www.mongodb.com/docs/atlas/app-services/data-api/examples/"
+      },
+      {
+        "label": "Custom HTTPS endpoints",
+        "url": "https://www.mongodb.com/docs/atlas/app-services/data-api/custom-endpoints/"
+      },
+      {
+        "label": "Atlas Device SDKs deprecation notice",
+        "url": "https://www.mongodb.com/docs/atlas/device-sdks/deprecation/"
+      },
+      {
+        "label": "Create an app with Realm CLI",
+        "url": "https://www.mongodb.com/docs/atlas/app-services/cli/"
+      }
+    ]
+  },
+  {
+    "id": "learning",
+    "title": "Learning & development",
+    "description": "Training, tutorials, drivers, and developer resources.",
+    "links": [
+      { "label": "MongoDB University", "url": "https://learn.mongodb.com/" },
+      {
+        "label": "MongoDB University: Connecting to a MongoDB Database (Compass, Drivers)",
+        "url": "https://learn.mongodb.com/courses/connecting-to-a-mongodb-database"
+      },
+      {
+        "label": "MongoDB documentation home",
+        "url": "https://www.mongodb.com/docs/"
+      },
+      {
+        "label": "MongoDB Manual",
+        "url": "https://www.mongodb.com/docs/manual/"
+      },
+      {
+        "label": "MongoDB driver documentation",
+        "url": "https://www.mongodb.com/docs/drivers/"
+      },
+      {
+        "label": "Getting started with MongoDB and Mongoose",
+        "url": "https://www.mongodb.com/developer/languages/javascript/getting-started-with-mongodb-and-mongoose/"
+      },
+      {
+        "label": "MongoDB AI integrations",
+        "url": "https://www.mongodb.com/docs/atlas/ai-integrations/"
+      }
+    ]
+  },
+  {
+    "id": "visualization",
+    "title": "Charts & integrations",
+    "description": "Visualize data and connect Atlas to monitoring tools.",
+    "links": [
+      {
+        "label": "MongoDB Charts",
+        "url": "https://www.mongodb.com/docs/charts/"
+      },
+      {
+        "label": "View and export chart data",
+        "url": "https://www.mongodb.com/docs/charts/view-export-chart-data/"
+      },
+      {
+        "label": "Atlas Charts embedding SDK",
+        "url": "https://www.mongodb.com/docs/charts/embedding-charts-sdk/"
+      },
+      {
+        "label": "Integrate Atlas with Prometheus",
+        "url": "https://www.mongodb.com/docs/atlas/tutorial/prometheus-integration/"
+      },
+      {
+        "label": "Integrate Atlas with Datadog",
+        "url": "https://www.mongodb.com/docs/atlas/tutorial/datadog-integration/"
+      },
+      {
+        "label": "Integrate Atlas with Vercel",
+        "url": "https://www.mongodb.com/docs/atlas/reference/partner-integrations/vercel/"
+      }
+    ]
+  },
+  {
+    "id": "security",
+    "title": "Security & compliance",
+    "description": "Security practices, encryption, privacy, and compliance resources.",
+    "links": [
+      {
+        "label": "MongoDB security bulletins",
+        "url": "https://www.mongodb.com/resources/products/mongodb-security-bulletins"
+      },
+      {
+        "label": "MongoDB security checklist",
+        "url": "https://www.mongodb.com/docs/manual/administration/security-checklist/"
+      },
+      {
+        "label": "Configure Atlas security features",
+        "url": "https://www.mongodb.com/docs/atlas/setup-cluster-security/"
+      },
+      {
+        "label": "Encryption at rest",
+        "url": "https://www.mongodb.com/docs/manual/core/security-encryption-at-rest/"
+      },
+      {
+        "label": "MongoDB Trust Center",
+        "url": "https://www.mongodb.com/cloud/trust"
+      },
+      {
+        "label": "MongoDB privacy policy",
+        "url": "https://www.mongodb.com/legal/privacy-policy"
+      }
+    ]
+  },
+  {
+    "id": "users",
+    "title": "Users, roles & audit",
+    "description": "Manage organization users, database access, and audit history.",
+    "links": [
+      {
+        "label": "Add users to an organization",
+        "url": "https://www.mongodb.com/docs/atlas/access/manage-org-users/#add-users-to-an-organization"
+      },
+      {
+        "label": "Atlas user roles",
+        "url": "https://www.mongodb.com/docs/atlas/reference/user-roles/"
+      },
+      {
+        "label": "Configure custom database roles",
+        "url": "https://www.mongodb.com/docs/atlas/security-add-mongodb-roles/#configure-custom-database-roles"
+      },
+      {
+        "label": "Manage database users",
+        "url": "https://www.mongodb.com/docs/atlas/security-add-mongodb-users/"
+      },
+      {
+        "label": "Set up database auditing",
+        "url": "https://www.mongodb.com/docs/atlas/database-auditing/"
+      },
+      {
+        "label": "View database access history",
+        "url": "https://www.mongodb.com/docs/atlas/access-tracking/"
+      }
+    ]
+  },
+  {
+    "id": "alerts",
+    "title": "Alerts & monitoring",
+    "description": "Configure alerts and understand Atlas alert conditions.",
+    "links": [
+      {
+        "label": "Configure alert settings",
+        "url": "https://www.mongodb.com/docs/atlas/configure-alerts/"
+      },
+      {
+        "label": "Atlas alert conditions",
+        "url": "https://www.mongodb.com/docs/atlas/reference/alert-conditions/"
+      },
+      {
+        "label": "Alert configuration API",
+        "url": "https://www.mongodb.com/docs/atlas/reference/api-resources-spec/v2/#tag/Alert-Configurations"
+      },
+      {
+        "label": "Host alerts",
+        "url": "https://www.mongodb.com/docs/atlas/reference/alert-conditions/#host-alerts"
+      },
+      {
+        "label": "Cloud backup alerts",
+        "url": "https://www.mongodb.com/docs/atlas/reference/alert-conditions/#cloud-backup-alerts"
+      },
+      {
+        "label": "Billing alerts",
+        "url": "https://www.mongodb.com/docs/atlas/reference/alert-conditions/#billing-alerts"
+      }
     ]
   },
   {
     "id": "support",
-    "title": "Support",
-    "description": "Where to go if something breaks.",
+    "title": "Support & help",
+    "description": "Find self-service support and product assistance.",
     "links": [
-      { "label": "Troubleshooting", "url": "#" },
-      { "label": "Contact the team", "url": "#" }
+      { "label": "MongoDB Support", "url": "https://support.mongodb.com/help" },
+      {
+        "label": "MongoDB Community Forums",
+        "url": "https://www.mongodb.com/community/forums/"
+      },
+      {
+        "label": "Atlas Developer support plan",
+        "url": "https://www.mongodb.com/docs/atlas/support/"
+      },
+      {
+        "label": "MongoDB terms of service",
+        "url": "https://www.mongodb.com/legal/terms-of-use"
+      },
+      { "label": "Find your public IP address", "url": "https://ipinfo.io/ip" }
     ]
   }
 ]
