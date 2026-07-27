@@ -1,14 +1,20 @@
 <template>
   <div>
-    <h2 class="mb-3"><i class="bi bi-question-circle me-2"></i>Frequently Asked Questions</h2>
-    <p class="text-muted">Grouped into 5 main topics, each with its own panel list (accordion).</p>
+    <h2 class="mb-3">
+      <i class="bi bi-question-circle me-2"></i>Frequently Asked Questions
+    </h2>
+    <p class="text-muted">
+      Grouped into 5 main topics, each with its own panel list (accordion).
+    </p>
 
     <div v-if="loading" class="d-flex align-items-center gap-2 text-muted">
       <span class="spinner-border spinner-border-sm"></span> Loading FAQs...
     </div>
     <div v-else-if="error" class="alert alert-danger">
       Failed to load FAQs: {{ error }}
-      <button class="btn btn-sm btn-outline-danger ms-2" @click="load()">Retry</button>
+      <button class="btn btn-sm btn-outline-danger ms-2" @click="load()">
+        Retry
+      </button>
     </div>
 
     <div v-else class="row g-4">
@@ -20,7 +26,11 @@
           <div class="card-body">
             <!-- Each topic gets its own independent accordion of Q&A panels -->
             <div class="accordion" :id="'faq-' + topic.id">
-              <div class="accordion-item" v-for="(panel, i) in topic.panels" :key="i">
+              <div
+                class="accordion-item"
+                v-for="(panel, i) in topic.panels"
+                :key="i"
+              >
                 <h2 class="accordion-header">
                   <button
                     class="accordion-button"
@@ -39,7 +49,19 @@
                   :class="{ show: i === 0 }"
                   :data-bs-parent="'#faq-' + topic.id"
                 >
-                  <div class="accordion-body">{{ panel.a }}</div>
+                  <div class="accordion-body">
+                    <a
+                      :href="panel.a"
+                      class="text-decoration-none d-inline-flex align-items-center"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      ><i
+                        class="bi bi-box-arrow-up-right me-2 small"
+                        aria-hidden="true"
+                      ></i
+                      >{{ panel.q }}
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -51,12 +73,14 @@
 </template>
 
 <script setup>
-import { onMounted } from 'vue'
-import { useFetch } from '../composables/useFetch'
+import { onMounted } from "vue";
+import { useFetch } from "../composables/useFetch";
 
 // FAQ content is data-driven from JSON too - same reusable useFetch composable
 // used across views for remote/local resource loading.
-const { data, error, loading, load } = useFetch(`${import.meta.env.BASE_URL}data/faqs.json`)
+const { data, error, loading, load } = useFetch(
+  `${import.meta.env.BASE_URL}data/faqs.json`,
+);
 
-onMounted(load)
+onMounted(load);
 </script>

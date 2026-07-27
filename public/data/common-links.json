@@ -121,6 +121,18 @@
       {
         "label": "Retry a failed payment",
         "url": "https://www.mongodb.com/docs/atlas/billing/#retry-a-failed-payment"
+      },
+      {
+        "label": "AWS Self-Serve Marketplace",
+        "url": "https://www.mongodb.com/docs/atlas/billing/aws-self-serve-marketplace/#aws-self-serve-marketplace"
+      },
+      {
+        "label": "Azure Self-Serve Marketplace",
+        "url": "https://www.mongodb.com/docs/atlas/billing/azure-self-serve-marketplace/"
+      },
+      {
+        "label": "GCP Self-Serve Marketplace",
+        "url": "https://www.mongodb.com/docs/atlas/billing/gcp-self-serve-marketplace/"
       }
     ]
   },

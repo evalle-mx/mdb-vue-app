@@ -17,6 +17,11 @@
         "id": "billing-item-3",
         "title": "Organization suspended",
         "template": "templates/billing/org-suspended.html"
+      },
+      {
+        "id": "billing-item-4",
+        "title": "Organization Embargoed",
+        "template": "templates/billing/org-embargoed.html"
       }
     ]
   },
@@ -28,6 +33,11 @@
         "id": "Wait-replies",
         "title": "Wait responses",
         "template": "templates/general/wait-reply.html"
+      },
+      {
+        "id": "status-update",
+        "title": "Status, issues, outage",
+        "template": "templates/general/mdb-statuspage.html"
       },
       {
         "id": "hello-reply",
